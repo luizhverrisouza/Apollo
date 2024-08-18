@@ -1,0 +1,36 @@
+# Ignorar arquivos e diretórios específicos do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.suo
+*.dbmdl
+*.bak
+*.log
+*.pdb
+*.opendb
+
+# Ignorar diretórios de build e dados temporários
+bin/
+obj/
+Debug/
+Release/
+
+# Ignorar diretórios de cache e de configuração
+.vs/
+*.suo
+*.user
+*.userosscache
+*.suo
+
+# Ignorar arquivos específicos de pacote
+*.nupkg
+
+# Ignorar arquivos gerados automaticamente
+*.csproj.user
+*.suo
+*.cache
+*.tmp
+
+# Ignorar arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
